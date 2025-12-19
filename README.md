@@ -1,25 +1,21 @@
-# Falsification_using_RL
+# Falsification_decision_control_software
 
-All material related to the master thesis project 'Falsification using Reinforcement Learning' during spring 2022. Instructions on how to use the different folders below. 
+All pre-study material related to the master thesis project 'Falsification of safety critical decision and control software' during spring 2026. Instructions on how to use the different folders below. 
 
-## Prestudy_Falsification_RL 
+## Prestudy 
 
 This folder contains relevant papers and some other sources to start the prestudy phase of the project. The numbers in the subfolders indicate the recommended order of reading. The mandatory readings are marked in **bold font** below. The expected learning outcome is also outlined. 
 
-### 1_Falsification
+### 1_MSc_thesis_Amanda_Andreas
 
-*Learning outcome*: Explain how optimization based falsification works and identify different components in an optimization based falsification framework. Understand the robustness function used in this framework so that you can follow the papers in the folder titled 3_RL_Falsification
-
-- **Licentiate_JohanE**: **Mandatory reading only Chapter 3.** You can skip the other chapters for now. 
-- Falsification_ACC_Matlab_Zahra: This paper evaluates two different semantics for the falsification of an ACC controller from the MATLAB toolbox. Currently, a design project aims to use the same example to falsify the ACC controller using RL. The report from the design project will be available before the start of the thesis project.
-- Tutorial_Breach_DemoAFCmain: Breach is a Matlab toolbox for simulation-based design and falsification of cyber-physical systems. This document is a tutorial on how to get started with Breach. Breach can be found here: https://github.com/decyphir/breach
+*Learning outcome*: Explain how RL was used to falsify an automated lane change feature and find safety-critical scenarios. Understand the strength and weakness of the RL algorithms used and possible solutions to address the weakness. 
 
 ### 2_RL 
 
 *Learning outcome*: Understand and be able to explain the different RL algorithms. Understand the difficulties and practical challenges that arise when you use RL to solve a problem. 
 
 - **RL_Cheat_Sheet**: Mandatory reading.
-- intro RL: Assignment from one of the courses at Chalmers. Constantin has specially modified the assignment for the context of this project. 😉  
+- intro RL: Assignment from one of the courses at Chalmers.  
 - Some other material to read in this part include:
   - **Deep Reinforcement Learning Doesn't Work Yet**: Mandatory reading of the blog post https://www.alexirpan.com/2018/02/14/rl-hard.html
   - John Schulman's talk about the practical tips to consider when doing Deep RL: https://www.youtube.com/watch?v=8EcdaCk9KaQ and the slides to his talk http://joschu.net/docs/nuts-and-bolts.pdf
